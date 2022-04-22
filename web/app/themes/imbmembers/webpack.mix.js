@@ -11,6 +11,7 @@ mix_.setPublicPath('./dist/')
         processCssUrls: false
     })
     .copy('./node_modules/bootstrap/fonts/*', 'dist/fonts/')
+    .copy('./assets/scripts/restrict-embed-blocks.js', 'dist/restrict-embed-blocks.js')
     .js('./modernizr.js', 'dist/modernizr.min.js');
 
 if (mix_.inProduction()) {
