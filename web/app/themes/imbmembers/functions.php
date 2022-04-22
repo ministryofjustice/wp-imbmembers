@@ -26,6 +26,7 @@ $sage_includes = [
   'lib/taxonomies.php',            // Configure post taxonomies
   'lib/login.php',                 // Changes to login functionality
   'lib/change-password.php',       // Frontend 'change password' functionality
+  'lib/restrict-blocks.php',       // Restrict Gutenberg Blocks
 ];
 
 foreach ($sage_includes as $file) {
