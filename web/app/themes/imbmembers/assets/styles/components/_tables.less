@@ -1,0 +1,16 @@
+table:not([width="670"]) {
+	//width variable used in the one place where this styling isn't desirable
+	table-layout: fixed;
+
+	th,td {
+		padding: 12px;
+		font-weight: 400;
+	}
+	tr:first-child {
+		th,td {
+			font-weight: 700;
+			color: #0b0c0c;
+			border-bottom: 1px solid;
+		}
+	}
+}
