@@ -1,17 +1,23 @@
 .wp-block-table table {
+
 	th,td {
 		padding: 12px;
-
-		&:not(:last-child) {
-			border-right: 1px solid;
-		}
 	}
 	th {
 		font-weight: 700;
 		color: #0b0c0c;
-		border-bottom: 2px solid;
 		font-size: larger;
 	}
+}
+.wp-block-table.is-style-regular table {
+	border: 1px solid;
+
+	th,td {
+		&:not(:last-child) {
+			border-right: 1px solid;
+		}
+	}
+	th,
 	tr:not(:last-child) td{
 		border-bottom: 1px solid;
 	}
