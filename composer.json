@@ -61,7 +61,7 @@
         "wpackagist-plugin/breadcrumb-trail": "*",
         "ministryofjustice/wp-rewrite-media-to-s3": "*",
         "wpackagist-plugin/menu-icons": "*",
-        "wpackagist-plugin/wp-analytify":"*",
+        "wpackagist-plugin/wp-analytify":"4.2.2",
         "wpackagist-plugin/analytify-analytics-dashboard-widget":"*",
         "wpackagist-plugin/classic-editor": "*",
         "ministryofjustice/wp-moj-components": "*",
