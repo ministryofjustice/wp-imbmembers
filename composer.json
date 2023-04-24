@@ -65,6 +65,7 @@
         "wpackagist-plugin/analytify-analytics-dashboard-widget":"*",
         "wpackagist-plugin/classic-editor": "*",
         "ministryofjustice/wp-moj-components": "*",
+        "ministryofjustice/wp-gov-uk-notify": "*",
         "ministryofjustice/wp-user-roles": "*"
     },
     "extra": {
